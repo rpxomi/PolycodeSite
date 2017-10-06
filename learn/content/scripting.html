@@ -10,7 +10,7 @@
 	<li><a href="#inheritance">Inheritance in Lua classes.</a></li>
 </ul>
 <h4 id="note">A note on Lua and C++.</h4>
-<p>Though the Polycode IDE was created as a scripting environment where you can write and publish cross-platform applications written in Lua, Polycode is designed primarily as a C++ engine, and as such, it is advised that if you are comfortable with C++, you use it as a C++ API, and use the IDE strictly for for asset editing.</p>
+<p>Though the Polycode IDE was created as a scripting environment where you can write and publish cross-platform applications written in Lua, Polycode is designed primarily as a C++ engine, and as such, it is advised that if you are comfortable with C++, you use it as a C++ API, and use the IDE strictly for asset editing.</p>
 <h4 id="api">Lua API overview.</h4>
 <p>The Lua API is automatically generated from the C++ source and covers most of the functionality available in C++, but currently it does have some limitations. Some parts of the Polycode API that use direct memory access, such as networking and some parts of image editing are not available in Lua.</p>
 <p>Some commonly used functionality was also simplified in Lua and takes advantage of some of Lua's features. For example, instead of adding event listeners to CoreInput to process input, you can simply write an onKeyDown function that will be called automatically.</p>
